@@ -1,0 +1,22 @@
+uuid: 60ce14e0-c2f2-403e-94f6-ebb3e0ca57ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - lb_property
+_core:
+  default_config_hash: KTYn49U05-ji2Pg-6NgvO84vvC9xz_SRHHfoQtW-mCo
+id: lb_property_help
+theme: lb_property
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

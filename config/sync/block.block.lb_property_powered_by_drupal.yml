@@ -1,0 +1,22 @@
+uuid: be31d2cd-850f-449f-91d3-3a5eccaa06f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: EXDMTutDuhK101FszmxlEznQ5NjGiXd9aALmitUsaHk
+id: lb_property_powered_by_drupal
+theme: lb_property
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

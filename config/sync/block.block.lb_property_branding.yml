@@ -1,0 +1,25 @@
+uuid: 2c6c1e9b-9ea7-44c5-a703-0bcac58f2863
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: EbFibcEjPpRSgEW3bfHqz_WFupc9z4GxZjYlGM6OssU
+id: lb_property_branding
+theme: lb_property
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

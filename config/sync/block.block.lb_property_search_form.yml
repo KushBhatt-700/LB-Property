@@ -1,0 +1,23 @@
+uuid: 55eb78ac-23ee-4c3b-a2d7-588be8a514be
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - lb_property
+_core:
+  default_config_hash: 29Uwg9VQSIrZgfxHRKOEcBTuoGQJRqlzRwwhd4aNJeI
+id: lb_property_search_form
+theme: lb_property
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

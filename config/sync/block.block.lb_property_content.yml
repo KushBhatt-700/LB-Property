@@ -1,0 +1,22 @@
+uuid: c452695c-42c4-49c7-9879-d9379830ec4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: EKZgZlJcKVjeJ7mqDSVBUIS1b1U5-2SDXE--4-vxJnY
+id: lb_property_content
+theme: lb_property
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 3ad04edc-4181-47c0-aa69-0afa25ab10b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: X72vRE7mSMI5lY_P0pFQUSZzXVeEuNNgxzuQcrC2fuU
+id: lb_property_main_navigation
+theme: lb_property
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

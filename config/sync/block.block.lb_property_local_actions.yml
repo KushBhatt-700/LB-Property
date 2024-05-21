@@ -1,0 +1,20 @@
+uuid: 4942d67b-7f12-4603-becf-c8b15c3b5098
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lb_property
+_core:
+  default_config_hash: zgui7gYKDW88YFUvoTK1JAk2mSOw8V3DvuIlKmUOHg0
+id: lb_property_local_actions
+theme: lb_property
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 56a7c77a-3f1d-43de-a6fe-8a3a9c6e106d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: I0j1nGMgpU1lLTrhJveGtuWG33eaT6I2WIf9Jvec-mk
+id: lb_property_account_menu
+theme: lb_property
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 08af2439-f9da-4e64-985a-0eec70fff049
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lb_property
+_core:
+  default_config_hash: nuTkhQV4iYb83kSOnmBY1BTAKn91KWnyZL3FJ9lCRPE
+id: lb_property_messages
+theme: lb_property
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }
