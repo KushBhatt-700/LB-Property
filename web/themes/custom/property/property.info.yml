@@ -1,0 +1,4 @@
+name: Property
+core_version_requirement: ^9 || ^10
+type: theme
+'base theme': stable9

@@ -17,6 +17,7 @@ phpminiadmin.php
 /docroot/sites/default/files_back
 /docroot/sites/default/private
 /docroot/sites/default/private_files
+/web/sites/default/files/
 
 # Ignore SimpleTest multi-site environment.
 /docroot/sites/simpletest/
